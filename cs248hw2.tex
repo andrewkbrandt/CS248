@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+\setlength{\headheight}{14.49998pt}
+% Include any special packages you might use.  
+\usepackage{amssymb,amsmath,amsthm,cool}						%Provides extra symbols
+\usepackage[height=9in,width=6.5in]{geometry}	%Adjusts margins
+\parindent=0pt                              % disables indentation
+
+% The following commands set up the material that appears
+% in the header.
+\usepackage{fancyhdr}
+\lhead{MATH 252: Homework 2} %change to section
+\chead{\today}
+\rhead{Andrew Brandt}
+\pagestyle{fancy}
+
+
+% If you want, you can make new commands, e.g. the following
+\def\R{\mathbb R}							%Define some commonly used symbols
+\def\Q{\mathbb Q}
+\def\Z{\mathbb Z}
+\def\N{\mathbb N}
+
+
+%%%% Main document starts here.
+
+\begin{document}
+{\bf 1.4 Problems: 2,8,14,16}\\
+
+2. ${\mathcal{P}}(\{1,2,3,4\})$ =\\
+$\{\emptyset ,\{1\},\{2\},\{3\},\{4\},\{1,2\},\{1,3\},\{1,4\},\{2,3\},\\\{2,4\},
+\{3,4\},\{1,2,3\},\{1,2,4\},\{1,3,4\},\{2,3,4\}\{1,2,3,4\}\}$
+
+8. ${\mathcal{P}}(\{1,2\}\times \{3\})$ =\\
+$\{\emptyset ,\{(1,3)\},\{(2,3)\},\{(1,3)\},\{2,3\}\}$
+
+14. $|A|=m$ and $|B|=n$ so $|{\mathcal{P}}({\mathcal{P}}(A))$ =\\
+${2^2}^m$
+
+16. $|{\mathcal{P}}(A)\times {\mathcal{P}}(B)|$ = \\
+$2^m + 2^n$\\
+
+{\bf 1.5 Problems: 2,4 }\\
+
+2. A = $\{0,2,4,6,8\}$,$\{1,3,5,7\}$,$\{2,8,4\}$
+
+a. $A\cup B = \{0,2,4,6,8,1,3,5,7\}$
+
+b. $A\cap B = \emptyset$
+
+c. $A-B = \{0,2,4,6,8\}$
+
+d. $A-C = \{0,6\}$
+
+e. $B-A = \{1,3,5,7\}$
+
+f. $A\cap C = \{2,8,4\}$
+
+g. $B\cap C = \emptyset$
+
+h. $C-A = \emptyset$
+
+i. $C-B = \{2,8,4\}$\\
+
+4. $A=\{b,c,d\}$ and $B=\{a,b\}$
+
+a. $(A\times B)\cap (B\times B)$\\
+$= \{(b,b),(a,a)\}$
+
+b. $(A\times B)\cup (B\times B)$\\
+$= \{(b,a),(b,b),(c,a),(c,b),(d,a),(d,b),(a,a),(a,b)\}$
+
+c. $(A\times B)-(B\times B)$\\
+$=\{(c,a),(c,b),(d,a),(d,b)\}$
+
+d. $(A\cap B)\times B$\\
+$= \{(b,b),(b,c),(b,d)\}$
+
+e. $(A\times B)\cap B$\\
+$= \emptyset$
+
+f. ${\mathcal{P}}(A)\cap{\mathcal{P}}(B)$\\
+$=\{\emptyset ,\{b\}\}$
+
+g. ${\mathcal{P}}(A)-{\mathcal{P}}(B)$\\
+$=\{\{c\},\{d\},\{b,c\},\{b,d\},\{c,d\},\{b,c,d\}\}$
+
+h. ${\mathcal{P}}(A\cap B)$\\
+$=\{\emptyset ,\{b\}\}$\\\\\\
+
+i. ${\mathcal{P}}(A)\times {\mathcal{P}}(B)$\\
+$=\{(\emptyset ,\emptyset),(\emptyset ,\{a\}),(\emptyset ,\{b\}),(\emptyset ,\{a,b\}),(\{b\},\emptyset),(\{b\},\{a\})\\
+(\{b\},\{b\}),(\{b\},\{a,b\}),(\{c\},\emptyset),(\{c\},\{a\}),(\{c\},\{b\}),(\{c\},\{a,b\}),(\{d\},\emptyset),(\{d\},\{a\}),\\
+(\{d\},\{b\}),(\{d\},\{a,b\}),(\{b,c\},\emptyset),(\{b,c\},\{a\}),(\{b,c\},\{b\}),(\{b,c\},\{a,b\}),(\{b,d\},\emptyset),\\
+(\{b,d\},\{a\}),(\{b,d\},\{b\}),(\{b,d\},\{a,b\}),(\{c,d\},\emptyset),(\{c,d\},\{a\}),(\{c,d\},\{b\}),(\{c,d\},\{a,b\}),(\{b,c,d\},\emptyset),\\
+(\{b,c,d\},\{a\}),(\{b,c,d\},\{b\}),(\{b,c,d\},\{a,b\})\}$
+
+{\bf 1.6 Problems: 2}\\
+
+2. $A=\{0,2,4,6,8\}$ and $B=\{1,3,5,7\}$ and $U=\{0,1,2,3,4,5,6,7,8\}$
+
+a. $\overline{A} = \{1,3,5,7\}$
+
+b. $\overline{B} = \{0,2,4,6,8\}$
+
+c. $A\cap \overline{A} = \emptyset$
+
+d. $A\cup \overline{A} = \{0,1,2,3,4,5,6,7,8\}$
+
+e. $A-\overline{A} = \{1,3,5,7\}$
+
+f. $\overline{A\cup B} = \emptyset$
+
+g. $\overline{A}\cap \overline{B} = \emptyset$
+
+h. $\overline{A\cap B} = \emptyset$
+
+i. $\overline{A}\times B = \{(1,1),(1,3),(1,5),(1,7),(3,3),(3,5),(3,7),(5,5),(5,7),(7,7)\}$
+
+\end{document}

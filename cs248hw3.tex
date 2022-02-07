@@ -1,0 +1,131 @@
+\documentclass[12pt]{article}
+\setlength{\headheight}{14.49998pt}
+% Include any special packages you might use.  
+\usepackage{amssymb,amsmath,amsthm,cool,tikz,venndiagram}						%Provides extra symbols
+\usepackage[height=9in,width=6.5in]{geometry}	%Adjusts margins
+\parindent=0pt                              % disables indentation
+
+% The following commands set up the material that appears
+% in the header.
+\usepackage{fancyhdr}
+\lhead{MATH 252: Homework 3} %change to section
+\chead{\today}
+\rhead{Andrew Brandt}
+\pagestyle{fancy}
+
+
+% If you want, you can make new commands, e.g. the following
+\def\R{\mathbb R}							%Define some commonly used symbols
+\def\Q{\mathbb Q}
+\def\Z{\mathbb Z}
+\def\N{\mathbb N}
+
+
+%%%% Main document starts here.
+
+\begin{document}
+
+{\bf All problems 1.7: 2-14 even, 1.8: 2-8 even}\\
+
+{\bf 1.7}\\
+
+2. \\
+$B-A$
+
+\begin{align*}
+\begin{venndiagram2sets}
+\fillOnlyB
+\end{venndiagram2sets}
+\end{align*}
+
+4.\\
+$(A\cup B)-C$
+
+\begin{align*}
+\begin{venndiagram3sets}
+\fillANotC\fillBNotC
+\end{venndiagram3sets}
+\end{align*}
+
+6.\\
+$A\cap (B\cup C)$ And $(A\cap B)\cup(A\cap B)$
+
+\begin{align*}
+\begin{venndiagram3sets}
+\fillACapB\fillACapC
+\end{venndiagram3sets}
+\begin{venndiagram3sets}
+    \fillACapB\fillACapC
+\end{venndiagram3sets}
+\end{align*}
+
+Looking at the diagrams, they are not equal.\\
+
+8.\\
+$\overline{A\cup B}$ And $\overline{A}\cap \overline{B}$
+
+\begin{align*}
+    \begin{venndiagram2sets}
+        \fillNotA\fillNotB
+    \end{venndiagram2sets}    
+    \begin{venndiagram2sets}
+        \fillNotA\fillNotB
+    \end{venndiagram2sets}
+\end{align*}
+
+These two diagrams are not the same.\\
+
+10.\\
+$(A-B)\cup C$
+
+\begin{align*}
+    \begin{venndiagram3sets}
+        \fillANotB\fillCNotB
+    \end{venndiagram3sets}
+\end{align*}
+
+12.
+
+$(A-(A\cap (B-C)))\cup (C\cap B)$
+
+14.
+
+$(A-(C\cup B))\cup (A\cap (B\cap C))$\\
+
+{\bf 1.8}\\
+
+2.
+
+$A_1 = \{0,2,4,6,8,10,12,14,16,18,20,22,24\}$
+
+$A_2 = \{0,3,9,12,15,18,21,24\}$
+
+$A_3 = \{0,4,8,12,16,20,24\}$\\
+
+a. $\bigcap_{i=1}^{3}$
+
+$= \{0,2,3,4,6,8,9,10,12,14,15,16,18,20,21,22,24\}$\\
+
+b. $\bigcup_{i=1}^{3}$
+
+$= \{0,12,24\}$
+
+4. For each $n\in \N$ let $A_n = \{-2n,0,2n\}$
+
+a. $\bigcup_{i\in \N}A_{i}= 2\Z$\\
+
+b. $\bigcap _{i\in \N}A_{i} = \{0\}$\\
+
+6.
+
+a. $\N$
+
+b. 0
+
+8.
+
+a. $\{0,\R\}$
+
+b. $\emptyset$
+
+\end{document}
