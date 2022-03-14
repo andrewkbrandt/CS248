@@ -1,0 +1,132 @@
+\documentclass[12pt]{article}
+% Include any special packages you might use.
+\usepackage{amssymb,amsmath,amsthm,cool} %Provides extra symbols
+\usepackage[height=9in,width=6.5in]{geometry} %Adjusts margins
+\parindent=0pt % disables indentation
+% The following commands set up the material that appears
+% in the header.
+\usepackage{fancyhdr}
+\lhead{CS 248: Homework 2.1} %change to section
+%\chead{\today}  % Uncomment this line so add date to title
+
+\rhead{Name} %Replace with your name
+\pagestyle{fancy}
+% If you want, you can make new commands, e.g. the following
+\def\R{\mathbb R} %Define some commonly used symbols
+\def\Q{\mathbb Q}
+\def\Z{\mathbb Z}
+\def\N{\mathbb N}
+
+\title{CS 248 Unit 2 Homework 1}
+
+
+%%%% Main document starts here.
+\begin{document}
+Assignment due March 15th at 11:59 p.m. \\ \\
+Complete the following problems from Chapters 4, 5, and 6 of Book of Proof. Found at: \\ https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf \\ \\
+Prove each of the following statements: \\ 
+
+{\bf Problem 4.10} Suppose $a$ and $b$ are integers. If $a|b$, then $a|(3b^3-b^2+5b).$
+
+{\bf Problem 4.14} If $n \in \Z$, then $5n^2+3n+7$ is odd.
+
+{\bf Problem 4.26} Every odd integer is a difference of two squares. Example: $7 = 4^2-3^2.$
+
+{\bf Problem 5.12} Suppose $a \in \Z$. If $a^2$ is not divisible by $4$, then $a$ is odd.
+
+{\bf Problem 5.28} If $n \in \Z$, then $4 \not{|}  (n^2-3).$ 
+
+{\bf Problem 6.8} Suppose $a,b,c \in \Z$. If $a^2+b^2=c^2$, then $a$ or $b$ is even \\
+
+{\bf 4.10}
+
+{\bf Proposition} Suppose $a$ and $b$ are integers. If $a|b$, then $a|(3b^3-b^2+5b).$
+\begin{proof}
+    
+    % b=ac, ad= the expression. prove the expression is equal to ad
+    %skip this one and come back to it later??
+\end{proof}
+
+{\bf Proposition} If $n\in\Z$, then $5n^2+3n+7$ is odd
+\begin{proof}
+    % an even plus an even is always an even
+    % split it up into 3 individual parts
+    % prove the first two are even
+    % prove 7 is odd
+    We say a number is odd if x=2k+1 for some integer k.
+
+    assume 2 cases, n can be either even or odd.
+
+    firstly, if n is odd.
+
+    then we can say that $5n^2$ can be written as $5(2k+1)^2$
+
+    this can be rewritten to $5(2k+1)(2k+1)$ then to
+
+    $20k^2+10k+10K+2(2)+1$, then $2(10k^2+10k+2)+1$
+
+    if we let $10k^2+10k+2 = j$, then $5n^2$ is odd because it can be written as $2j+1$
+
+    next, look at $3n$, if n is odd, it can be written as $3(2k+1)$
+
+    multiply out to get $6k+3$, rewrite this to $2(3k+1)+1$
+    
+    let $3k+1$ equal $h$, so $3n$ is odd because it can be written as $2h+1$
+
+    Now that we know that $5n^2$ and $3n$ are both odd assuming that $n$ is even
+
+    so adding these two terms together will result in a even number because
+
+    $(2j+1)+(2h+1)$ or $2j+2h+2$, which can be written as $2(j+h)$ which is a even number.
+
+    Now lets assume that n is even. An even number can be written as 2k for some interger k.
+
+    looking at $5n^2$, we can write it as $5(2k)^2$, or $2(10k^2)$
+
+    this number is even because if we write $10k^2$ as j, then it is $2j$
+
+    also, $3n$ is even because we can write it as $3(2k)$, or $6k$
+
+    which can then be written as $2(3k)$, if we make $3k$ h, then it would be $2h$
+
+    Now that they are both even if n is even, adding them together will also get a even number.
+
+    This is because, $2j+2h$, can be written as $2(j+h)$
+
+    now that we know adding the first two terms will result in an even number wether n is even or odd
+
+    we can prove 7 is odd because it can be written as $2(3)+1$,
+
+    we know the first 2 terms added together will be even, so lets write them as 2j,
+
+    so we have $2j+2(3)+1$, then a 2 can be factored out, $2(j+3)+1$.
+
+    Therfore, $5n^2+3n+7$ is odd if $n\in Z$
+
+\end{proof}
+
+{\bf Proposition} Every odd integer is a difference of two squares.
+\begin{proof}
+    An integer is odd if it equals $2k+1$ for some integer k.
+
+    now, lets look at 2 consecutive integers squared, written as k and k+1.
+
+    $(k+1)^2 - k^2$, rewrite as $k^2+2k+1-k^2$. This is the same as $2k+1$
+
+    thus, any prime can equal the difference of two squares.
+
+\end{proof}
+
+{\bf Proposition} Suppose $a\in \Z$. if $a^2$ is not divisible by 4, then $a$ is odd.
+\begin{proof}
+
+    We say that $a|b$ for some $z\in\Z$ for $b=az$
+
+    lets assume that a is even. $a=2k$ by definition of an even number.
+
+    
+
+\end{proof}
+
+
+\end{document}
