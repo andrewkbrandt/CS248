@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1647272545 "c:/Users/andre/Documents/CS248/cs248hw21.tex" "cs248hw21.pdf" "cs248hw21" 1647272546
+["pdflatex"] 1647284216 "c:/Users/andre/Documents/CS248/cs248hw21.tex" "cs248hw21.pdf" "cs248hw21" 1647284217
   "C:/Users/andre/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1642709413 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/andre/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1642110819 9769967 e63c69c66ab167f3f6c62d2a6855599f ""
   "C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -52,9 +52,9 @@
   "C:/Users/andre/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/andre/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1639593011 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "C:/Users/andre/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1639465870 29971 0fb19a39718d289d512ef2f074f16cc2 ""
-  "c:/Users/andre/Documents/CS248/cs248hw21.tex" 1647272544 4491 7ea40fbb7eb54c61e858ae5282ea97c2 ""
-  "cs248hw21.aux" 1647272546 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "cs248hw21.tex" 1647272544 4491 7ea40fbb7eb54c61e858ae5282ea97c2 ""
+  "c:/Users/andre/Documents/CS248/cs248hw21.tex" 1647284214 5145 939ef6a9d3be4decb16f3a03c5c61ea0 ""
+  "cs248hw21.aux" 1647284216 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "cs248hw21.tex" 1647284214 5145 939ef6a9d3be4decb16f3a03c5c61ea0 ""
   (generated)
   "cs248hw21.aux"
   "cs248hw21.log"
