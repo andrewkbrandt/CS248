@@ -41,10 +41,19 @@ Prove each of the following statements: \\
 {\bf 4.10}
 
 {\bf Proposition} Suppose $a$ and $b$ are integers. If $a|b$, then $a|(3b^3-b^2+5b).$
+
 \begin{proof}
+
+    we say $a|b$ for some $z\in\Z$ for $b=az$
+
+    Therfore, we can write $3b^3-b^2+5b$ as $3(az)^3-(az)^2+5(az)$.
+
+    Then factor out $a$ to get $a(3a^2b^3-az^2+5z)$.
+
+    now a is multiplied to some constant and the product is $(3b^3-b^2+5b)$ 
     
-    % b=ac, ad= the expression. prove the expression is equal to ad
-    %skip this one and come back to it later??
+    so the expression is true.
+
 \end{proof}
 
 {\bf Proposition} If $n\in\Z$, then $5n^2+3n+7$ is odd
@@ -147,6 +156,36 @@ Prove each of the following statements: \\
     therefore $z=k^2-3/4$. this will not result in an integer
 
     likewise, assume n is odd.
+
+    so $(2k+1)^2-3=4z$, and rewrite it as $4k^2+4k-2=4z$ and then solve for z.
+
+    Therefore $z=k^2+4k-\frac{1}{2}$. This case will also not result in an integer.
+
+\end{proof}
+
+{\bf Proposiiton} Suppose $a,b,c \in \Z$. If $a^2+b^2=c^2$, then $a$ or $b$ is even
+\begin{proof}
+
+    By way of contradiction, lets assume that both a and b are odd.
+
+    then we can write it as: $(2k+1)^2+(2j+1)^2=c^2$
+
+    so $4(k^2+k+j^2+j)+2=c^2$
+
+    then we know c can be either even or odd.
+
+    assuming c is even, we get : $4h^2=4(k^2+k+j^2+j)+2$
+
+    after dividing out the 4, there will be a fraction on one side.
+
+    now lets assume that c is odd.
+
+    so we get: $4(h^2+h)+1=4(k^2+k+j^2+j)+2=c^2$
+
+    after dividing out the four, there will be unequal fractions on both sides.
+
+    therfore it is not an integer for either case.
+
 \end{proof}
 
 \end{document}
