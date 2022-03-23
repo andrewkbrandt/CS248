@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+% Include any special packages you might use.
+\usepackage{amssymb,amsmath,amsthm,cool} %Provides extra symbols
+\usepackage[height=9in,width=6.5in]{geometry} %Adjusts margins
+\parindent=0pt % disables indentation
+% The following commands set up the material that appears
+% in the header.
+\usepackage{fancyhdr}
+\lhead{CS 248: Homework 2.2} %change to section
+%\chead{\today}  % Uncomment this line so add date to title
+
+\rhead{Name} %Replace with your name
+\pagestyle{fancy}
+% If you want, you can make new commands, e.g. the following
+\def\R{\mathbb R} %Define some commonly used symbols
+\def\Q{\mathbb Q}
+\def\Z{\mathbb Z}
+\def\N{\mathbb N}
+
+\title{CS 248 Unit 2 Homework 2}
+
+
+%%%% Main document starts here.
+\begin{document}
+\textbf{Assignment due April 5th at 11:59 p.m. \\ \\
+}Complete the following problems. These problems are related to Chapters 12 in the Book of Proof. Found at: \\ https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf \\ \\
+
+{\bf Problem 1:} For each of the following functions, determine whether the function is injective, surjective, bijective or none. Also, order the functions in a manner such that if a function $f(x)$ is to the left of $g(x)$ in the ordering, then $f(x)$ is $O(g(x)).$ You do not need to prove any of your conclusions. Assume the domain and co-domain of each function is $\R$.
+\begin{itemize}
+    \item $a(x) = 2x$
+    
+    Injective, not Surjective and not Bijective
+
+    \item $b(x) = 2^x$
+    
+    Injective, Surjective and Bijective
+
+    \item $c(x) = \log(x)$
+    
+    Injective, Surjective amd Bijective
+
+    \item $d(x) = x^x$
+    \item $e(x) = \frac{1}{x}$
+    \item $f(x) = \frac{x^2}{5}$
+    \item $g(x) = \frac{x^4-1}{7x+7}$
+    \item $h(x) = 918532$
+\end{itemize} 
+
+\textit{For problems 2 through 7, prove each of the statements.} \\ 
+
+{\bf Problem 2:} The function $f:\Z \rightarrow \N$, $f(n)= n^2$ is not surjective and not injective.\\
+
+{\bf Problem 3:} The function $f:\N \rightarrow \Z$, $f(n)= 3n-17$ is injective.\\
+
+{\bf Problem 4:} The function $f:\R \rightarrow \Z$, $f(x)= \lfloor x \rfloor$ is surjective. \textit{Note that the floor function, denoted $\lfloor x \rfloor$, just rounds down. \\}
+
+{\bf Problem 5:} The function $f:\Z \rightarrow \Z$, $f(n)=-n + 4$, is a bijection. \textit{Hint: first find its inverse.} \\
+
+{\bf Problem 6:} $\frac{x^3+17}{4x+5}$ is $O(3x^2)$. \\
+
+{\bf Problem 7:} $n \log(n)$ is not $O(100 n)$. Assume log base 10.\\
+
+\end{document}
