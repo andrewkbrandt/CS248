@@ -9,7 +9,7 @@
 \lhead{CS 248: Homework 2.2} %change to section
 %\chead{\today}  % Uncomment this line so add date to title
 
-\rhead{Name} %Replace with your name
+\rhead{Andrew Brandt} %Replace with your name
 \pagestyle{fancy}
 % If you want, you can make new commands, e.g. the following
 \def\R{\mathbb R} %Define some commonly used symbols
@@ -25,9 +25,11 @@
 \textbf{Assignment due April 5th at 11:59 p.m. \\ \\
 }Complete the following problems. These problems are related to Chapters 12 in the Book of Proof. Found at: \\ https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf \\ \\
 
-{\bf Problem 1:} For each of the following functions, determine whether the function is injective, surjective, bijective or none. Also, order the functions in a manner such that if a function $f(x)$ is to the left of $g(x)$ in the ordering, then $f(x)$ is $O(g(x)).$ You do not need to prove any of your conclusions. Assume the domain and co-domain of each function is $\R$.
+{\bf Problem 1:} For each of the following functions, determine whether the function is injective, surjective, bijective or none. Also, order the functions in a manner such that if a function $f(x)$ is to the left of $g(x)$ in the ordering, then $f(x)$ is $O(g(x)).$ You do not need to prove any of your conclusions. Assume the domain and co-domain of each function is $\R$.\\
 
-We say $f(x)$ is $\mathcal{O}(g(x))$
+We say $f(x)$ is $\mathcal{O}(g(x))$ when f(x) is less than or
+equal to g(x) to within some constant multiple c
+
 %%%% delete this later ^^^^
 \begin{itemize}
 
@@ -75,9 +77,49 @@ We say $f(x)$ is $\mathcal{O}(g(x))$
 
 {\bf Problem 2:} The function $f:\Z \rightarrow \N$, $f(n)= n^2$ is not surjective and not injective.\\
 
+\begin{proof}
+
+    Assume $a=b$, so $(f(a)=a^2)=(f(b)=b^2)$
+
+    we can say that $a^2$ is equal to $b^2$
+
+    now lets set $a=-1$ and $b=1$
+
+    they both equal 1 yet are different values
+
+    therefore the function is not injective.
+
+    Now lets assume that $n=0$
+
+    it follows that $f(0)=0^2$ which is 0.
+
+    zero is not in $\N$
+
+    therefore, the function is not subjective.
+
+\end{proof}
+
 {\bf Problem 3:} The function $f:\N \rightarrow \Z$, $f(n)= 3n-17$ is injective.\\
 
+\begin{proof}
+
+    Assume $f(a)=f(b)$ for some $a,b\in\Z$
+
+    It follows that $3a-17=3b-17$
+
+    we can simplify to $3a=3b$ and then to $a=b$
+
+    Therefore the function is injective.
+
+\end{proof}
+
 {\bf Problem 4:} The function $f:\R \rightarrow \Z$, $f(x)= \lfloor x \rfloor$ is surjective. \textit{Note that the floor function, denoted $\lfloor x \rfloor$, just rounds down. \\}
+
+\begin{proof}
+
+    
+
+\end{proof}
 
 {\bf Problem 5:} The function $f:\Z \rightarrow \Z$, $f(n)=-n + 4$, is a bijection. \textit{Hint: first find its inverse.} \\
 
