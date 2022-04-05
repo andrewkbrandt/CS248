@@ -143,6 +143,24 @@ equal to g(x) to within some constant multiple c
 
 {\bf Problem 6:} $\frac{x^3+17}{4x+5}$ is $O(3x^2)$. \\
 
+\begin{proof}
+
+    We say that $f(x)$ is $O(g(x))$ if there exists constants C and k such that $|f(x)\le C(g(x))$ for all $x>k$
+
+    let $c=1$ and $k=2$, assume $x>k$.
+
+    Then $|\frac{x^3+17}{4x+5}|=\frac{x^3+17}{4x+5}$ because the function will be positive for any $x>2$
+
+    likewise, $|\frac{x^3+17}{4x+5}|>x^3+17$ because removing the $4x+5$ makes it a bigger function.
+
+    also, removing the $+17$ makes it a bigger function.
+
+    If we multiple the $x^3$ by 3, it is a larger function. Then we have $3x^3$
+
+    This can be written as $3|x^3|$. Therefore $f(x)$ is $O(g(x))$
+
+\end{proof}
+
 {\bf Problem 7:} $n \log(n)$ is not $O(100 n)$. Assume log base 10.\\
 
 \end{document}
