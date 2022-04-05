@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1649094600 "c:/Users/andre/Documents/CS248/Assignment2/cs248hw22.tex" "cs248hw22.pdf" "cs248hw22" 1649094601
+["pdflatex"] 1649117412 "c:/Users/andre/Documents/CS248/Assignment2/cs248hw22.tex" "cs248hw22.pdf" "cs248hw22" 1649117413
   "C:/Users/andre/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1648923048 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/andre/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1642188728 14064 71dee726214ca20474a36f3610522317 ""
   "C:/Users/andre/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1642110819 9769967 e63c69c66ab167f3f6c62d2a6855599f ""
@@ -57,9 +57,9 @@
   "C:/Users/andre/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/andre/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1639593011 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "C:/Users/andre/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1639465870 29971 0fb19a39718d289d512ef2f074f16cc2 ""
-  "c:/Users/andre/Documents/CS248/Assignment2/cs248hw22.tex" 1649094598 4786 93fff597a5a3ef829e75b9a3c387ce97 ""
-  "cs248hw22.aux" 1649094600 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "cs248hw22.tex" 1649094598 4786 93fff597a5a3ef829e75b9a3c387ce97 ""
+  "c:/Users/andre/Documents/CS248/Assignment2/cs248hw22.tex" 1649117411 4869 a28b063ce99d9e6c5e201cbe942eac5a ""
+  "cs248hw22.aux" 1649117413 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "cs248hw22.tex" 1649117411 4869 a28b063ce99d9e6c5e201cbe942eac5a ""
   (generated)
   "cs248hw22.aux"
   "cs248hw22.log"
