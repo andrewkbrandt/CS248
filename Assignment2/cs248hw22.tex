@@ -30,8 +30,11 @@
 We say $f(x)$ is $\mathcal{O}(g(x))$ when f(x) is less than or
 equal to g(x) to within some constant multiple c
 
+%%%918532 1/x logx 2x x^2 x^4 2^x x^x 
 %%%% delete this later ^^^^
 \begin{itemize}
+
+    \item Ordering = $e(x)$, $h(x)$, $c(x)$, $a(X)$, $f(x)$, $g(x)$, $b(x)$, $d(x)$
 
     \item $a(x) = 2x$
     
@@ -117,9 +120,14 @@ equal to g(x) to within some constant multiple c
 
 \begin{proof}
 
-    Let C and k be arbitrary constants.
+    let $a$ and $b$ be $\in \R$ and $<3$ and $>2$.
 
-    
+    $a\neq b$
+
+    they will both round down to 2.
+
+    therfore the function is surjective.
+
 
 \end{proof}
 
@@ -149,17 +157,15 @@ equal to g(x) to within some constant multiple c
 
     We say that $f(x)$ is $O(g(x))$ if there exists constants C and k such that $|f(x)\le C(g(x))$ for all $x>k$
 
-    let $c=1$ and $k=2$, assume $x>k$.
+    let $c=2$ and $k=1$, assume $x>k$.
 
-    Then $|\frac{x^3+17}{4x+5}|=\frac{x^3+17}{4x+5}$ because the function will be positive for any $x>2$
+    Then $|\frac{x^3+17}{4x+5}|=\frac{x^3+17}{4x+5}$ because the function will be positive for any $x>1$
 
-    likewise, $|\frac{x^3+17}{4x+5}|>x^3+17$ because removing the $4x+5$ makes it a bigger function.
+    likewise, $|\frac{x^3+17}{4x+5}|\leq x\frac{^3+17x}{4x+5}$ because it is a bigger function.
 
-    also, removing the $+17$ makes it a bigger function.
+    we can write this as $\frac{1}{4}x^2+17$
 
-    If we multiple the $x^3$ by 3, it is a larger function. Then we have $3x^3$
-
-    This can be written as $3|x^3|$. Therefore $f(x)$ is $O(g(x))$
+    then we can multiply the entire function by 24 and simplify to get $2\times 3x^2$
 
 \end{proof}
 
@@ -167,7 +173,19 @@ equal to g(x) to within some constant multiple c
 
 \begin{proof}
 
-    
+    $f(x)$ is not $O(g(x))$ means for all constants C,k there exists an $x>k$ such that $|f(x)| > C|g(x)|$
+
+    let C and k be arbitrary constants.
+
+    Assume BYOC that $nlogn$ is $O(100n)$
+
+    then there are C and k such that $0\le nlogn \le 100n$
+
+    if a n is divided from both sides, we get $logn\le 100$
+
+    this fails for  values of $x<10$
+
+    therefore it is a contradiction.
 
 \end{proof}
 
