@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+% Include any special packages you might use.
+\usepackage{amssymb,amsmath,amsthm,cool} %Provides extra symbols
+\usepackage[height=9in,width=6.5in]{geometry} %Adjusts margins
+\parindent=0pt % disables indentation
+% The following commands set up the material that appears
+% in the header.
+\usepackage{fancyhdr}
+\lhead{CS 248: Homework 2.3} %change to section
+%\chead{\today}  % Uncomment this line so add date to title
+
+\rhead{Andrew Brandt} %Replace with your name
+\pagestyle{fancy}
+% If you want, you can make new commands, e.g. the following
+\def\R{\mathbb R} %Define some commonly used symbols
+\def\Q{\mathbb Q}
+\def\Z{\mathbb Z}
+\def\N{\mathbb N}
+
+\title{CS 248 Unit 2 Homework 3}
+
+
+%%%% Main document starts here.
+\begin{document}
+\textbf{Assignment due April 19th at 11:59 p.m. \\ \\
+}Complete the following problems. These problems are related to Chapters 11 in the Book of Proof. Found at: \\ https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf \\ \\
+
+{\bf Problem 1:} Consider the relation $R=\{(a,b), (a,c), (c,c), (b,b), (c,b), (b,c)\}$ on the set $A= \{a, b, c\}.$ Is $R$ reflexive, symmetric, and/or transitive? For each property, briefly explain your answer. \\
+
+    \begin{itemize}
+
+        \item Reflexive: The relation is not reflexive because a does not directly relate to a.
+        \item Symmetric: The relation is not symmetric because not every pair has a exact reverse. For example, the pair (a,b) does not have a matching (b,a) pair.
+        \item Transitive: The relation is transitve because a relates to c and c relates to b.
+    \end{itemize}
+
+{\bf Problem 2:} Let $S = \{a, b, c\}.$ Let relation $R = \{(a,b), ...\}$ be a relation on set $S$. For each of the following sets of properties, provide a complete list of ordered pairs in $R$.
+\begin{enumerate}
+    \item Reflexive, Symmetric, Not Transitive
+    
+        $R = \{(a,a),(b,b),(c,c),(a,b),(b,a)\}$
+
+    \item Not Reflexive, Symmetric, Transitive
+    
+        $R = \{(a,a),(b,b),(a,b),(b,c),(c,a)\}$
+
+    \item Reflexive, Not Symmetric, Transitive
+    
+        $R = \{(a,a),(b,b),(c,c),(a,b),(b,c),(c,a)\}$
+
+    \item Not Reflexive, Not Symmetric, Transitive
+    
+        $\{(a,b),(b,c),(c,a)\}$
+
+\end{enumerate} 
+
+
+{\bf Problem 3:} Prove that the divides relation on the set $\Z$ is reflexive, transitive, and not symmetric. Note that the divides relation is denoted as $a|b$, which means $b=ka$ for some integer $k$. 
+
+\begin{proof}
+
+    For a relation to be reflexive, every element must relate to itself.
+
+    We know that $a|b$ means $b=ka$ for some $k\in\Z$. 
+    
+    Assume $k=1$, so $b=(1)a$.
+
+    Therfore the divides relation is reflexive.
+
+    For a relation to be symmetric, every pair must have a matching pair in opposite order.
+
+    So lets say $a|b$ and $b=ka$ for some $k\in\Z$. For this to be true, $b|a$ must also be true.
+
+    $b|a$ mean $a=kb$ for some $k\in\Z$
+    
+    So $b=ka$ and $a=kb$. This cannot be true because solving for a in the first equation would get $b/k = a$. this does not agree with the second function
+
+    therefore it is not symmetric.
+    
+    %just prove it is transitive
+
+
+
+\end{proof}
+
+\end{document}
